@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 import com.example.demo.Model.PersonaModel;
 import com.example.demo.Repository.PersonaRepository;
 
-@Service("personaService")
+@Service
 public class PersonaService {
     
     @Autowired

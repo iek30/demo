@@ -33,7 +33,7 @@ public class PersonaController {
     
     //Forma 1 para pasar parámetros por la url
     @PostMapping
-    public PersonaModel addPerona(@RequestBody PersonaModel personaModel) {
+    public PersonaModel addPersona(@RequestBody PersonaModel personaModel) {
         return personaService.addPersona(personaModel);
     }
     
